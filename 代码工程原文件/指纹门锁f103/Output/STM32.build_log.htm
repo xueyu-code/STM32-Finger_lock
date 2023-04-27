@@ -1,0 +1,72 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.28.0.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: wck dfds, wck, LIC=MGXG8-3311K-SGA7K-Z5S02-QH6E0-2P8N8
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.28.0.0
+Toolchain Path:  D:\Keil\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.28.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      Segger\JL2CM3.dll V2.99.36.0
+Dialog DLL:      TCM.DLL V1.36.2.0
+ 
+<h2>Project:</h2>
+F:\wck\stm32作品（王长科）\指纹密码锁\程序\指纹门锁f103\STM32.uvprojx
+Project File Date:  03/11/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\Keil\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling main.c...
+.\USER\OLED\oled.h(62): warning:  #1295-D: Deprecated declaration Picture - give arg types
+  void Picture();
+.\USER\OLED\oled.h(63): warning:  #1295-D: Deprecated declaration IIC_Start - give arg types
+  void IIC_Start();
+.\USER\OLED\oled.h(64): warning:  #1295-D: Deprecated declaration IIC_Stop - give arg types
+  void IIC_Stop();
+.\USER\OLED\oled.h(69): warning:  #1295-D: Deprecated declaration IIC_Wait_Ack - give arg types
+  void IIC_Wait_Ack();
+.\USER\PWM\pwm.h(9): warning:  #1-D: last line of file ends without a newline
+  void func_set_pwm_compare(u8 rate);
+USER\main.c(59): warning:  #186-D: pointless comparison of unsigned integer with zero
+  		if(0<=xianshi[key]&&xianshi[key]<10)
+USER\main.c(109): warning:  #186-D: pointless comparison of unsigned integer with zero
+  		if(0<=xianshi[key]&&xianshi[key]<10)
+USER\main.c(148): warning:  #186-D: pointless comparison of unsigned integer with zero
+  		if(0<=xianshi[key]&&xianshi[key]<10)
+USER\main.c(260): warning:  #177-D: variable "count"  was declared but never referenced
+  	 u8 count=0;
+USER\main.c(261): warning:  #177-D: variable "timeCount"  was declared but never referenced
+  	 u16 timeCount,ensure;	
+USER\main.c: 10 warnings, 0 errors
+linking...
+Program Size: Code=22460 RO-data=2340 RW-data=2936 ZI-data=3752  
+FromELF: creating hex file...
+".\Output\STM32.axf" - 0 Error(s), 10 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.2.0.pack
+                Keil.STM32F1xx_DFP.2.2.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  D:\Keil\Arm\Packs\Keil\STM32F1xx_DFP\2.2.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
